@@ -70,3 +70,26 @@ export const updateProduct = async (req, res) => {
 
 
 }
+
+
+
+export const deleteProduct = async (req, res) => {
+
+
+    try {
+        const products = await Product.destroy({
+            where:{
+                id: req.params.id
+            }
+        });
+        res.json({
+            "message": "Product Deleted !"
+        });
+
+    }catch (error){
+
+        res.json({ message: error.message });
+    }
+
+
+}
