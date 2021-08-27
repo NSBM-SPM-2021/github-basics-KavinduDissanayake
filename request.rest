@@ -14,3 +14,17 @@ Content-Type: application/json
 
 ### GET PRODUCT ID WAYS 
 GET  http://localhost:5000/products/2
+
+
+
+
+
+### UPDATE TEST
+
+PATCH   http://localhost:5000/products/1
+Content-Type: application/json
+
+{
+    "title": "Product UPDATE",
+    "price": 123
+}
