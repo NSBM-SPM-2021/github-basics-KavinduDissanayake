@@ -12,3 +12,5 @@ Content-Type: application/json
 }
 
 
+### GET PRODUCT ID WAYS 
+GET  http://localhost:5000/products/2
