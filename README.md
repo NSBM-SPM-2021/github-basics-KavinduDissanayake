@@ -17,6 +17,12 @@ This is a Full Stack app with React js and node js and connected with MySQL data
 
 1. Stock Management  Backend (Screenshots )
 
+![Image](Images/1.PNG)
+![Image](Images/2.PNG)
+![Image](Images/3.PNG)
+![Image](Images/4.PNG)
+![Image](Images/5.PNG)
+
 2. Stock Management  Frontend (Screenshots )
 
 
