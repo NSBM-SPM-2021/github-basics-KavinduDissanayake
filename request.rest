@@ -3,6 +3,8 @@ GET  http://localhost:5000/products
 
 
 
+
+
 ###CREATE PRODUCT
 POST  http://localhost:5000/products
 Content-Type: application/json
