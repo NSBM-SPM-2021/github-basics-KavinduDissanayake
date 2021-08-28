@@ -1,8 +1,8 @@
 
 
-# :wave: Stock Management System!
+# :wave: Product Management System!
  
-This is a Full Stack app with React js and node js connected MySQL database .This database act as a real-time database ( Used background React js function to auto refreshing )
+This is a Full Stack app with React js and node js connected MySQL database .This database act as a **real-time database** ( Used background React js function to auto refreshing ).This app was created according to **MVVM Design** 
 
 
 # 📒 The Technology Stack 
@@ -17,7 +17,7 @@ This is a Full Stack app with React js and node js connected MySQL database .Thi
 [Screenshots]
 
 
-1. Stock Management  Backend
+1. Product Management  Backend
 
 ![Image](Images/1.PNG)
 ![Image](Images/2.PNG)
@@ -26,7 +26,7 @@ This is a Full Stack app with React js and node js connected MySQL database .Thi
 ![Image](Images/5.PNG)
 
 
-2. Stock Management  Frontend
+2. Product Management  Frontend
 
 [Screenshots]
 
