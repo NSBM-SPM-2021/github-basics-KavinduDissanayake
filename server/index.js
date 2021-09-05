@@ -1,3 +1,5 @@
+import db from "./config/database.js";
+
 const path = require('path');
 
 const express = require("express");
@@ -5,6 +7,21 @@ const express = require("express");
 const PORT = process.env.PORT || 3001;
 
 const app = express();
+
+
+//Database connection check 
+try {
+
+  await db.authenticate();
+  console.log('Database connected ... ');
+
+}catch (error){
+
+  console.error('Connection Error:', error);
+}
+
+
+
 
 // Have Node serve the files for our built React app
 app.use(express.static(path.resolve(__dirname, '../client/build')));
