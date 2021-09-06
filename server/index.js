@@ -10,15 +10,15 @@ const app = express();
 
 
 //Database connection check 
-try {
+// try {
 
-  await db.authenticate();
-  console.log('Database connected ... ');
+//   await db.authenticate();
+//   console.log('Database connected ... ');
 
-}catch (error){
+// }catch (error){
 
-  console.error('Connection Error:', error);
-}
+//   console.error('Connection Error:', error);
+// }
 
 
 
