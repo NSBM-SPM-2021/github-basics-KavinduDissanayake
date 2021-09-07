@@ -14,7 +14,7 @@ export const AddProduct = () => {
     const saveProduct = async (e) => {
         e.preventDefault();
 
-        await axios.post('http://localhost:3001/products', {
+        await axios.post('https://product-management-system-my.herokuapp.com/products', {
             title: title,
             price: price
         });

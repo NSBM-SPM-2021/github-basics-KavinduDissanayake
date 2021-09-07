@@ -9,11 +9,22 @@ This is a Full Stack app with React js and node js connected MySQL database .Thi
  4. MySQL 
 
 # 🔏  Trello
+
 [Link]
 [Screenshots]
 
 
 1. Product Management  Backend
 
+*API
+
 ![Image](Images/1.png)
 ![Image](Images/2.png)
+
+* Heroku dashboard
+
+![Image](Images/3.png)
+
+2. Product Management  Front END
+
+Live LINK: [Link]
