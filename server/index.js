@@ -4,6 +4,12 @@ import path from "path";
 import { fileURLToPath } from 'url';
 import { dirname } from 'path'
 
+import cors from 'cors';
+//FOR API ROUTES
+import productRoutes from "./routes/index.js";
+
+
+
 const PORT = process.env.PORT || 3001;
 
 const app = express();
@@ -32,6 +38,11 @@ const __dirname = dirname(__filename);
 
 
 app.use(express.static(path.resolve(__dirname, '../client/build')));
+
+//API PATH SET
+app.use(cors());
+app.use(express.json());
+app.use('/products',productRoutes);
 
 // All other GET requests not handled before will return our React app
 app.get('*', (req, res) => {
