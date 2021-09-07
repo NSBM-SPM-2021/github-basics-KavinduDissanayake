@@ -1,13 +1,16 @@
 import Product  from "../models/productsModel.js";
 
 
-//API FOR getAllProducts
-export const getAllProducts = async (req, res) => {
+//API FOR createProduct
+
+export const createProduct = async (req, res) => {
 
 
     try {
-        const products = await Product.findAll();
-        res.json(products);
+        const products = await Product.create(req.body);
+        res.json({
+            "message": "Product Created"
+        });
 
     }catch (error){
 
