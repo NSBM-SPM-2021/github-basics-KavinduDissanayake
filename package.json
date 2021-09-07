@@ -9,12 +9,12 @@
   "scripts": {
     "start": "node server/index.js",
     "build": "cd client && npm install && npm run build"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.1.0",
     "express": "^4.17.1"
   }
 }
