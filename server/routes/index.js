@@ -3,7 +3,8 @@ import express from "express";
 
 import  { 
     createProduct
-} from '../controllers/Products.js'
+} 
+from '../controllers/products.js'
 
 
 
