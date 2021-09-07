@@ -1,22 +1,14 @@
-import logo from './logo.svg';
 import React from "react";
-import './App.css';
 
 function App() {
-  const [data, setData] = React.useState(null);
-
-  React.useEffect(() => {
-    fetch("/api")
-      .then((res) => res.json())
-      .then((data) => setData(data.message));
-  }, []);
-
+  
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Product management system </h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>{!data ? "Loading..." : data}</p>
+        <h1>Product management system </h1> 
+
+          <p>Product management system</p>
+       
       </header>
     </div>
   );
