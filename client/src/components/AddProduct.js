@@ -14,7 +14,7 @@ export const AddProduct = () => {
     const saveProduct = async (e) => {
         e.preventDefault();
 
-        await axios.post('http://localhost:5000/products', {
+        await axios.post('http://localhost:3001/products', {
             title: title,
             price: price
         });
