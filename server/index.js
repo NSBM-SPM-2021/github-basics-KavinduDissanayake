@@ -1,6 +1,7 @@
-//import db from "./config/database.js";
+import db from "./config/database.js";
+import express from "express";
+import path from "path";
 
-const path = require('path');
 
 const express = require("express");
 
@@ -10,15 +11,15 @@ const app = express();
 
 
 //Database connection check 
-// try {
+try {
 
-//   await db.authenticate();
-//   console.log('Database connected ... ');
+  await db.authenticate();
+  console.log('Database connected ... ');
 
-// }catch (error){
+}catch (error){
 
-//   console.error('Connection Error:', error);
-// }
+  console.error('Connection Error:', error);
+}
 
 
 
