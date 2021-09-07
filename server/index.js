@@ -2,9 +2,6 @@ import db from "./config/database.js";
 import express from "express";
 import path from "path";
 
-
-const express = require("express");
-
 const PORT = process.env.PORT || 3001;
 
 const app = express();
