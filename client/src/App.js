@@ -6,33 +6,32 @@ import { AddProduct } from "./components/AddProduct.js";
 
 
 function App() {
+
   return (
     <Router>
-    <div className="container">
+        <div className="container">
 
 
-     <div className="text-center p-5">   
-        <h2>Product Managment System</h2>
-     </div>
+         <div className="text-center p-5">   
+            <h2>Product Managment System</h2>
+         </div>
 
-      <div className="columns">
-          <div className="column is-half is-offset-one-quarter">         
-          
-             <Switch>
-
-             <Route exact path="/add" > 
+          <div className="columns">
+              <div className="column is-half is-offset-one-quarter">         
+              
+                 <Switch>
+                    <Route exact path="/add" > 
                       <AddProduct/>
-              </Route>
-                
-            </Switch>
-        
+                    </Route>
+                </Switch>
+            
+              </div>
           </div>
-      </div>
 
-    
-    </div>
-</Router>
-      
+        
+        </div>
+    </Router>
+          
   );
 }
 
