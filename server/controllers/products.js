@@ -31,3 +31,22 @@ export const getAllProducts = async (req, res) => {
         res.json({ message: error.message });
     }
 }
+
+
+//API FOR updateProduct
+export const updateProduct = async (req, res) => {
+    try {
+        const products = await Product.update(req.body,{
+            where:{
+                id: req.params.id
+            }
+        });
+        res.json({
+            "message": "Product Updated !"
+        });
+
+    }catch (error){
+
+        res.json({ message: error.message });
+    }
+}
