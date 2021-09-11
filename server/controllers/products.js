@@ -50,3 +50,25 @@ export const updateProduct = async (req, res) => {
         res.json({ message: error.message });
     }
 }
+
+
+//API FOR getProductById
+
+export const getProductById = async (req, res) => {
+
+
+    try {
+        const products = await Product.findAll({
+            where:{
+                id: req.params.id 
+            }
+        });
+        res.json(products[0]);
+
+    }catch (error){
+
+        res.json({ message: error.message });
+    }
+
+
+}
