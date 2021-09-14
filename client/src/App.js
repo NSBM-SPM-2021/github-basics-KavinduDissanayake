@@ -3,6 +3,7 @@ import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
 
 import { AddProduct } from "./components/AddProduct.js";
 import { ProductList } from "./components/ProductList.js";
+import { EditProduct } from "./components/EditProduct.js";
 
 
 
@@ -17,15 +18,21 @@ function App() {
 
           <div className="columns">
               <div className="column is-half is-offset-one-quarter">         
-              
+                 <Switch>
+
                     <Route exact path="/" > 
                       <ProductList/>
                     </Route>
 
-                 <Switch>
                     <Route exact path="/add" > 
                       <AddProduct/>
                     </Route>
+
+                    <Route exact path="/edit/:id" > 
+                      <EditProduct/>
+                    </Route>
+
+                    
                 </Switch>
             
               </div>
