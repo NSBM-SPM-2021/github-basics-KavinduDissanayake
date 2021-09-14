@@ -16,7 +16,7 @@ export const EditProduct = () => {
     const updateProduct = async (e) => {
         e.preventDefault();
 
-        await axios.patch(`http://localhost:5000/products/${id}`,{
+        await axios.patch(`https://product-management-system-my.herokuapp.com/products/${id}`,{
             title: title,
             price: price
         });
@@ -31,7 +31,7 @@ export const EditProduct = () => {
 
     const getProductsById = async () =>{
 
-        const response = await axios.get(`http://localhost:5000/products/${id}`);
+        const response = await axios.get(`https://product-management-system-my.herokuapp.com/products/${id}`);
 
         setTitle(response.data.title);
         setPrice(response.data.price);
