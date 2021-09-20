@@ -49,6 +49,7 @@ export const ProductList = () => {
                                     <td>{product.title}</td>
                                     <td>{product.price}</td>
                                      <td>
+                                     <Link to={`/edit/${product.id}`} className ="btn btn-warning m-1">Edit</Link>
                                      <button onClick={()=> deleteProduct(product.id)} className ="btn btn-danger m-1">Delete</button>
                                      </td>
                                  </tr>
