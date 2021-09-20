@@ -16,10 +16,13 @@ This is a Full Stack app with React js and node js connected MySQL database .Thi
 
 1. Product Management  Backend
 
-*API
+* API
 
 ![Image](Images/1.png)
 ![Image](Images/2.png)
+![Image](Images/4.png)
+![Image](Images/5.png)
+![Image](Images/6.png)
 
 * Heroku dashboard
 
