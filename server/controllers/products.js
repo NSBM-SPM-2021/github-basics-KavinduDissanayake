@@ -72,3 +72,25 @@ export const getProductById = async (req, res) => {
 
 
 }
+
+//API FOR deleteProduct
+export const deleteProduct = async (req, res) => {
+
+
+    try {
+        const products = await Product.destroy({
+            where:{
+                id: req.params.id
+            }
+        });
+        res.json({
+            "message": "Product Deleted !"
+        });
+
+    }catch (error){
+
+        res.json({ message: error.message });
+    }
+
+
+}
