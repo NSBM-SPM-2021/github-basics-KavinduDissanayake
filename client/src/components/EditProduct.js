@@ -38,6 +38,7 @@ export const EditProduct = () => {
 
     }
 
+    
     return (
         <div className="container text-center" style={{ display: "inline-flex", justifyContent: "center"}}>
             <div class="card" style={{ width: "30rem" }}>
