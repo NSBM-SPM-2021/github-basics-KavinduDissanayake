@@ -18,6 +18,15 @@ export const ProductList = () => {
         setProduct(response.data);
     }
 
+
+    //delete product funcation call
+    const deleteProduct = async (id) =>{
+
+        await axios.delete(`https://product-management-system-my.herokuapp.com/products/${id}`);
+
+        getProducts();
+    }
+
     return (
         <div>
 
@@ -40,6 +49,7 @@ export const ProductList = () => {
                                     <td>{product.title}</td>
                                     <td>{product.price}</td>
                                      <td>
+                                     <button onClick={()=> deleteProduct(product.id)} className ="btn btn-danger m-1">Delete</button>
                                      </td>
                                  </tr>
 

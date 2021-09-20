@@ -22,6 +22,7 @@ This is a Full Stack app with React js and node js connected MySQL database .Thi
 ![Image](Images/2.png)
 ![Image](Images/4.png)
 ![Image](Images/5.png)
+![Image](Images/6.png)
 
 * Heroku dashboard
 
