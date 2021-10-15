@@ -49,6 +49,7 @@ export const EditProduct = () => {
                                
                                 <div className="field">
                                     <input
+                                        data-testid="edTitle"
                                         class="form-control"
                                         type="text"
                                         placeholder="Title"
@@ -59,6 +60,7 @@ export const EditProduct = () => {
                                 <p></p>
                                 <div className="field">
                                     <input
+                                        data-testid="edPrice"
                                         class="form-control"
                                         type="text"
                                         placeholder="Price"
