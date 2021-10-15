@@ -32,6 +32,7 @@ export const AddProduct = () => {
                                
                                 <div className="field">
                                     <input
+                                        data-testid="adTitle"
                                         class="form-control"
                                         type="text"
                                         placeholder="Title"
@@ -42,6 +43,7 @@ export const AddProduct = () => {
                                 <p></p>
                                 <div className="field">
                                     <input
+                                        data-testid="adPrice"
                                         class="form-control"
                                         type="text"
                                         placeholder="Price"

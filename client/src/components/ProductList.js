@@ -46,6 +46,7 @@ export const ProductList = () => {
                     {products.map((product, index) =>(
                                 <tr key = {product.id}>
                                     <td>{index +1}</td>
+                                    <td>{product.id}</td>
                                     <td>{product.title}</td>
                                     <td>{product.price}</td>
                                      <td>
