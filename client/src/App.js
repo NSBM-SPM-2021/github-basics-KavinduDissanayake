@@ -17,7 +17,7 @@ function App() {
          <div className="text-center p-5">  
 
            <img src={logo} width="100" height="100" />
-            <h2>Managment System </h2>
+            <h2>Product Managment System </h2>
             
          </div>
 
