@@ -10,8 +10,11 @@ This is a Full Stack app with React js and node js connected MySQL database .Thi
 
 # 🔏  Trello
 
-[Link]
-[Screenshots]
+
+![Image](Images/showproduct.png)
+![Image](Images/addproduct.png)
+![Image](Images/update.png)
+![Image](Images/delete.png)
 
 
 1. Product Management  Backend
@@ -30,7 +33,7 @@ This is a Full Stack app with React js and node js connected MySQL database .Thi
 
 2. Product Management  Front END
 
-Live LINK: [Link]
+Live LINK: [https://dashboard.heroku.com/apps/product-management-system-my]
 
 
 3. Testing
